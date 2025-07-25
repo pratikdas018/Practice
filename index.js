@@ -45,7 +45,7 @@ app.get("/github",(req,res)=>{
 })
 
 app.get("/",(req,res)=>{
-    res.send("helo pratik");
+    res.send("hello this pratik");
 });
 
 app.get("/insta",(req,res)=>{
