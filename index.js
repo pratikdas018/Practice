@@ -62,7 +62,7 @@ app.get("/youtube",(req,res)=>{
 
 app.get("/x", (req,res) => {
      res.send("<h2> Hey welcome to pratik's X account </h2>");
-})
+});
 
 app.listen(process.env.PORT,()=>{
     console.log(`port is listing on ${port}`);
