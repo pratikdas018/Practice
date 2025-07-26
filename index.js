@@ -59,6 +59,11 @@ app.get("/login",(req,res)=>{
 app.get("/youtube",(req,res)=>{
     res.send("<h2>Hey Welcome to pratik pages </h2>");
 })
+
+app.get("/x", (req,res) => {
+     res.send("<h2> Hey welcome to pratik's X account </h2>");
+})
+
 app.listen(process.env.PORT,()=>{
     console.log(`port is listing on ${port}`);
 })
