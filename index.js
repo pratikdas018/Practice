@@ -53,11 +53,11 @@ app.get("/insta",(req,res)=>{
 })
 
 app.get("/login",(req,res)=>{
-    res.send("<h1>please login CodeWithPratik</h1>");
+    res.send("<h1>please login</h1>");
 })
 
 app.get("/youtube",(req,res)=>{
-    res.send("<h2>Hey Welcome to pratik pages </h2>");
+    res.send("<h2>Hey Welcome to YouTube</h2>");
 })
 
 
