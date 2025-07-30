@@ -57,7 +57,7 @@ app.get("/login",(req,res)=>{
 })
 
 app.get("/youtube",(req,res)=>{
-    res.send("<h2>Hey Welcome to YouTube</h2>");
+    res.send("<h2>Hey Welcome to YouTube page</h2>");
 })
 
 
