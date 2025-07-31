@@ -63,7 +63,7 @@ app.get("/youtube",(req,res)=>{
 
 
 app.get("/x", (req,res) => {
-     res.send("<h2> welcome to X </h2>");
+     res.send("<h2> Welcome to X </h2>");
 });
 
 app.listen(process.env.PORT,()=>{
