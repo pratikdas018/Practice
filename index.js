@@ -60,11 +60,11 @@ app.get("/youtube",(req,res)=>{
     res.send("<h2>Hey Welcome to YouTube page</h2>");
 })
 
-
-
 app.get("/x", (req,res) => {
-     res.send("<h2> Welcome to X </h2>");
+     res.send("<h2> Hey enjoy X</h2>");
 });
+
+
 
 app.listen(process.env.PORT,()=>{
     console.log(`port is listing on ${port}`);
