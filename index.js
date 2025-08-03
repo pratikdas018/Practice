@@ -49,7 +49,7 @@ app.get("/",(req,res)=>{
 });
 
 app.get("/insta",(req,res)=>{
-    res.send("this is the Instagram account of pratik");
+    res.send(" Welcome Instagram ");
 })
 
 app.get("/login",(req,res)=>{
