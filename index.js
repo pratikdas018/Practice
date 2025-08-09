@@ -65,7 +65,7 @@ app.get("/x", (req,res) => {
 });
 
 app.get("/facebook",(req,res) =>{
-res.send(" <h2>Login to Facebook<h2> "):
+res.send("<h2> Login to Facebook <h2>"):
 });
 
 app.listen(process.env.PORT,()=>{
