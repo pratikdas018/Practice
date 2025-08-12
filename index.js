@@ -68,6 +68,10 @@ app.get("/facebook",(req,res) =>{
 res.send("<h2>Login to Facebook<h2>"):
 });
 
+app.get("/linkdin",(req,res) =>{
+res.send("<h2>Login to LinkedIn<h2>"):
+});
+
 app.listen(process.env.PORT,()=>{
     console.log(`port is listing on ${port}`);
 })
