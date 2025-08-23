@@ -72,6 +72,10 @@ app.get("/linkdin",(req,res) =>{
 res.send("<h2>Login to LinkedIn<h2>"):
 });
 
+app.get("/vite", (req, res) => {
+ res.send( " This is the react component. And it render the vite from react " );
+})
+
 app.listen(process.env.PORT,()=>{
     console.log(`port is listing on ${port}`);
 })
