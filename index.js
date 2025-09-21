@@ -69,7 +69,7 @@ res.send("<h2>Login to Facebook<h2>"):
 });
 
 app.get("/linkdin",(req,res) =>{
-res.send("<h2>Login to LinkedIn<h2>"):
+res.send("<h2>LinkedIn<h2>"):
 });
 
 app.get("/vite", (req, res) => {
