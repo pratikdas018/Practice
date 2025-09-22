@@ -61,7 +61,7 @@ app.get("/youtube",(req,res)=>{
 })
 
 app.get("/x", (req,res) => {
-     res.send("<h2> Login or Signup X</h2>");
+     res.send("<h2>Login or Signup X</h2>");
 });
 
 app.get("/facebook",(req,res) =>{
