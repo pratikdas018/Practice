@@ -1,8 +1,7 @@
 require('dotenv').config()
 const express = require("express");
 const app = express();
-const port = 6000;
-
+const port = 5000;
 
 const githubData = 
     {
@@ -73,7 +72,7 @@ res.send("<h2>LinkedIn<h2>"):
 });
 
 app.get("/vite", (req, res) => {
- res.send( " This is the react component.And it render the vite from react " );
+ res.send( " This is the react component.And it render the vite from react" );
 })
 
 app.listen(process.env.PORT,()=>{
