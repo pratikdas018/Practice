@@ -8,7 +8,8 @@
   },
   "keywords": [
     "node",
-    "chai"
+    "chai",
+    "sutta"
   ],
   "author": "pratik das",
   "license": "ISC",
