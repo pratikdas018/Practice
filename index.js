@@ -71,6 +71,10 @@ app.get("/linkdin",(req,res) =>{
 res.send("<h2>LinkedIn<h2>"):
 });
 
+app.get("/logout",(req,res)=>{
+    res.send("<h1>You are logout</h1>");
+})
+
 app.get("/vite", (req, res) => {
  res.send( " This is the react component.And it render the vite from react" );
 })
