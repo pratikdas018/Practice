@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require("express");
 const app = express();
-const port = 5000;
+const port = 4000;
 
 const githubData = 
     {
@@ -38,6 +38,7 @@ const githubData =
         "created_at": "2024-08-11T12:42:26Z",
         "updated_at": "2024-09-03T06:49:06Z"
       }
+
 
 app.get("/github",(req,res)=>{
     res.json(githubData)
