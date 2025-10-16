@@ -48,8 +48,8 @@ app.get("/",(req,res)=>{
     res.send("hello this pratik");
 });
 
-app.get("/i",(req,res)=>{
-    res.send("Welconstagram");
+app.get("/insta",(req,res)=>{
+    res.send("Welcom to instagram");
 })
 
 app.get("/login",(req,res)=>{
