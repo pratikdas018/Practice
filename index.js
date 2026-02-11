@@ -60,7 +60,7 @@ app.get("/youtube",(req,res)=>{
     res.send("<h2>Welcome to YouTube page</h2>");
 })
 
-app.get("/x", (req,res) => {
+app.get("/x", (req,res,cb) => {
      res.send("<h2>Login Signup X</h2>");
 });
 
